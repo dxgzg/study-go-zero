@@ -1,9 +1,10 @@
 module shorturl
 
-go 1.19
+go 1.18
 
 require (
 	github.com/golang/protobuf v1.5.2
+	github.com/lib/pq v1.10.4
 	github.com/zeromicro/go-zero v1.3.0
 	google.golang.org/grpc v1.43.0
 )
@@ -17,6 +18,7 @@ require (
 	github.com/go-logr/logr v1.2.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-redis/redis v6.15.9+incompatible // indirect
+	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.2.0 // indirect
 	github.com/golang/mock v1.6.0 // indirect
